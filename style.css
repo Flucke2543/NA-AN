@@ -138,13 +138,11 @@ footer { text-align: center; padding: 40px; border-top: 1px solid #222; font-siz
     text-align: justify; /* จัดหน้ากระดาษแบบหนังสือ */
 }
 
-/* อักษรตัวแรกให้ดูคลาสสิก */
-.first-letter {
-    font-size: 3.5rem;
-    float: left;
-    line-height: 1;
-    padding-right: 10px;
-    color: var(--gold);
+.story-content p {
+    margin-bottom: 25px;
+    font-size: 1.15rem;
+    text-align: justify;
+    text-indent: 2em; 
 }
 
 .reader-footer {
