@@ -44,7 +44,7 @@ body {
     color: var(--gold);
 }
 .hero {
-    min-height: 50vh;
+    min-height: 80vh;
     display: flex;
     align-items: center;
     justify-content: center;
