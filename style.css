@@ -109,7 +109,7 @@ body {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 40px; 
-    max-width:750px; 
+    max-width:900px; 
     margin: 0px auto; 
     margin-bottom: 5px;
 }
@@ -119,6 +119,7 @@ body {
     border-radius: 8px;
     text-align: center;
     border: 1px solid #222;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
     transition: 0.3s;
 }
 .cover-box img { 
