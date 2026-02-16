@@ -96,9 +96,8 @@ body {
     text-shadow: 0 0 10px rgba(194, 178, 128, 0.3); 
     border-left: 4px solid var(--gold); 
     padding-left: 15px;
-} 
-    font-size: 2rem; }
-
+    font-size: 2rem; 
+}
 .book-grid {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
