@@ -17,7 +17,6 @@ body {
     line-height: 1.6;
     scroll-behavior: smooth;
 }
-
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -25,7 +24,17 @@ body {
     background: rgba(0,0,0,0.9);
     border-bottom: 1px solid #222;
 }
-
+.navbar a {
+    color: #ffffff !important;   
+    text-decoration: none;        
+    font-family: 'Mitr', sans-serif; 
+    font-size: 1rem;
+    margin-left: 20px;            
+    transition: 0.3s;            
+}
+.navbar a:hover {
+    color: var(--gold) !important;
+}
 .logo {
     font-family: 'Protest Guerrilla', sans-serif;
     font-size: 3rem;
@@ -33,7 +42,6 @@ body {
     letter-spacing: 6px;
     color: var(--gold);
 }
-
 .hero {
     height: 80vh;
     display: flex;
@@ -43,7 +51,6 @@ body {
     background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1514810771018-276192729582?auto=format&fit=crop&w=1350&q=80');
     background-size: cover;
 }
-
 .hero-content h1 {
     font-size: 3.5rem;
     margin-bottom: 20px;
@@ -61,7 +68,6 @@ body {
     margin-bottom: 30px;    
     line-height: 1.6;       
 }
-
 .btn-main {
     display: inline-block;
     padding: 15px 40px;
@@ -72,12 +78,10 @@ body {
     margin-top: 20px;
     transition: 0.3s;
 }
-
 .btn-main:hover {
     background: #fff;
     transform: translateY(-3px);
 }
-
 .store { padding: 20px 8%; }
 .section-title { text-align: center; color: var(--gold); margin-bottom: 50px; font-size: 2rem; }
 
@@ -88,7 +92,6 @@ body {
     max-width:900px; 
     margin: 0 auto; 
 }
-
 .book-card {
     background: var(--card-bg);
     padding: 12px; 
@@ -97,77 +100,64 @@ body {
     border: 1px solid #222;
     transition: 0.3s;
 }
-
 .cover-box img { 
     width: 100%; 
     height: 150px; 
     object-fit: cover; 
     border-radius: 4px; 
 }
-
 .book-card:hover { border-color: var(--gold); transform: translateY(-5px); 
 }
-
 .status-free { color: #2ecc71; font-weight: bold; }
 .price { color: var(--gold); font-weight: bold; }
-
 footer { text-align: center; padding: 40px; border-top: 1px solid #222; font-size: 0.8rem; }
 
-/* Reader Specific Styles */
 .reader-body {
-    background-color: #121212; /* สีเทาเข้มเกือบดำ (สบายตากว่าดำสนิท) */
+    background-color: #121212; 
     color: #d1d1d1;
-    line-height: 1.8; /* เว้นบรรทัดให้กว้างขึ้น อ่านง่าย */
+    line-height: 1.8; 
 }
-
 .reader-nav {
     padding: 15px 5%;
-    display: flex;
+    display: flex; 
     justify-content: space-between;
     background: #000;
     position: sticky;
     top: 0;
 }
-
 .reading-container {
-    max-width: 700px; /* จำกัดความกว้างเพื่อให้สายตาไม่ต้องกวาดไกล */
+    max-width: 700px; 
     margin: 60px auto;
     padding: 0 20px;
 }
-
 .story-title {
     font-size: 2.5rem;
     color: var(--gold);
     margin-bottom: 10px;
 }
-
 .story-meta {
     color: #888;
     border-bottom: 1px solid #333;
     padding-bottom: 20px;
     margin-bottom: 40px;
 }
-
 .story-content p {
     margin-bottom: 25px;
     font-size: 1.15rem;
     text-align: justify; /* จัดหน้ากระดาษแบบหนังสือ */
 }
-
 .story-content p {
     margin-bottom: 25px;
     font-size: 1.15rem;
     text-align: justify;
     text-indent: 2em; 
 }
-
 .reader-footer {
     margin-top: 80px;
     padding-top: 40px;
     border-top: 1px solid #333;
     text-align: center;
 }
-
 .btn-next {
     background: var(--gold);
     color: #000;
@@ -176,7 +166,6 @@ footer { text-align: center; padding: 40px; border-top: 1px solid #222; font-siz
     font-weight: bold;
     cursor: pointer;
 }
-
 .back-link {
     color: var(--gold);
     text-decoration: none;
@@ -189,17 +178,14 @@ footer { text-align: center; padding: 40px; border-top: 1px solid #222; font-siz
     color: #ffffff !important; 
     display: block; /* ทำให้มันคลุมพื้นที่การ์ดทั้งใบ */
 }
-
 /* 2. ถ้าเมาส์ชี้ (Hover) ให้ชื่อเรื่องเปลี่ยนเป็นสีทองนิดนึงพองาม */
 .card-link:hover h3 {
     color: var(--gold);
 }
-
 /* 3. ปรับให้ชื่อคนเขียนยังเป็นสีเทาๆ เหมือนเดิม ไม่ขาวโพลนไปหมด */
 .card-link p {
     color: #bbb !important;
 }
-
 /* 4. ปรับ Footer (อ่านฟรี/ราคา) ให้กลับมาอยู่ซ้าย-ขวาเหมือนเดิม */
 .card-link .card-footer {
     display: flex;
