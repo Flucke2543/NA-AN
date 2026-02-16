@@ -88,7 +88,16 @@ body {
     box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
 }
 .store { padding: 20px 8%; }
-.section-title { text-align: center; color: var(--gold); margin-bottom: 50px; font-size: 2rem; }
+.section-title {
+    text-align: center; 
+    color: var(--gold);
+    font-family: 'Mitr', sans-serif; 
+    font-weight: 600;
+    text-shadow: 0 0 10px rgba(194, 178, 128, 0.3); 
+    border-left: 4px solid var(--gold); 
+    padding-left: 15px;
+} 
+    font-size: 2rem; }
 
 .book-grid {
     display: grid; 
