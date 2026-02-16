@@ -88,8 +88,7 @@ body {
     transform: translateY(-3px);  
     box-shadow: 0 5px 15px rgba(212, 175, 55, 0.4);
 }
-.store { padding-top: 40px;    
-         padding-bottom: 10px;
+.store { padding: 20px 8% 0px 8%;
          min-height: auto;
         
 }
@@ -111,7 +110,7 @@ body {
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: 40px; 
     max-width:750px; 
-    margin: 30px auto; 
+    margin: 0px auto; 
 }
 .book-card {
     background: var(--card-bg);
