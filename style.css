@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap');
 :root {
     --bg: #050505;
     --card-bg: #121212;
@@ -24,6 +25,7 @@ body {
 }
 
 .logo {
+    font-family: 'Protest Guerrilla', cursive;
     font-size: 28px;
     font-weight: bold;
     letter-spacing: 6px;
