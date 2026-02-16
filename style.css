@@ -62,7 +62,7 @@ body {
     transform: translateY(-3px);
 }
 
-.store { padding: 80px 8%; }
+.store { padding: 20px 8%; }
 .section-title { text-align: center; color: var(--gold); margin-bottom: 50px; font-size: 2rem; }
 
 .book-grid {
