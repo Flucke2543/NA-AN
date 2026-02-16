@@ -89,9 +89,8 @@ body {
     border-radius: 4px; 
 }
 
-.book-card:hover { border-color: var(--gold); transform: scale(1.02); }
-
-.cover-box img { width: 100%; border-radius: 2px; }
+.book-card:hover { border-color: var(--gold); transform: translateY(-5px); 
+}
 
 .status-free { color: #2ecc71; font-weight: bold; }
 .price { color: var(--gold); font-weight: bold; }
