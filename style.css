@@ -187,7 +187,7 @@ footer { text-align: center; padding: 40px; border-top: 1px solid #222; font-siz
 /* 4. ปรับ Footer (อ่านฟรี/ราคา) ให้กลับมาอยู่ซ้าย-ขวาเหมือนเดิม */
 .card-link .card-footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     margin-top: 10px;
 }
