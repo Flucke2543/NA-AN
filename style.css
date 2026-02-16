@@ -19,6 +19,7 @@ body {
     scroll-behavior: smooth;
 }
 .navbar {
+    background-color: #0c0c0d;
     display: flex;
     justify-content: space-between;
     padding: 20px 8%;
