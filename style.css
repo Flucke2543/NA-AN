@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@100;200;300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
 :root {
     --bg: #0f0101;
     --card-bg: #121212;
@@ -91,7 +92,7 @@ body {
 .section-title {
     text-align: center; 
     color: var(--gold);
-    font-family: 'Mitr', sans-serif; 
+    font-family: "Athiti", sans-serif; 
     font-weight: 600;
     text-shadow: 0 0 10px rgba(194, 178, 128, 0.3); 
     padding-left: 15px;
