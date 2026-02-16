@@ -97,14 +97,14 @@ body {
     text-shadow: 0 0 10px rgba(194, 178, 128, 0.3); 
     padding-left: 15px;
     font-size: 1.5rem; 
-    margin-top: 10px;
-    margin-bottom: 40px
+    margin-top: 50px;
+    margin-bottom: 50px
 }
 .book-grid {
     display: grid; 
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 40px; 
-    max-width:600px; 
+    max-width:900px; 
     margin: 0 auto; 
 }
 .book-card {
