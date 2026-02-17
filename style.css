@@ -139,12 +139,23 @@ card-link:hover,
 }
 .status-free { color: #2ecc71; font-weight: bold; }
 .price { color: var(--gold); font-weight: bold; }
+
 .card-link, 
 .card-link:visited, 
 .card-link:active {
     text-decoration: none !important; 
     color: #ffffff !important; 
     display: block; }
+.card-link h3 {
+    font-family: 'Sarabun', serif; 
+    font-size: 1.35rem;           
+    font-weight: 700;             
+    color: #ffffff;               
+    margin-top: 15px;             
+    margin-bottom: 8px;           
+    line-height: 1.3;             
+    transition: all 0.3s ease;   
+}
 .card-link:hover h3 {
     color: var(--gold);
 }
