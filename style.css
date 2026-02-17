@@ -18,7 +18,7 @@ body {
     margin: 0;
     line-height: 1.6;
     scroll-behavior: smooth;
-    cursor: url('https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/Brush%20paint.png'), auto;
+    cursor: url('https://github.com/Flucke2543/NA-AN/raw/refs/heads/main/wood%20(oak).cur'), auto;
 }
 .navbar {
     background-color: var(--bg);
