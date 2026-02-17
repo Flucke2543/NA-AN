@@ -179,11 +179,6 @@ body {
 .story-content p {
     margin-bottom: 25px;
     font-size: 1.15rem;
-    text-align: justify; /* จัดหน้ากระดาษแบบหนังสือ */
-}
-.story-content p {
-    margin-bottom: 25px;
-    font-size: 1.15rem;
     text-align: justify;
     text-indent: 2em; 
 }
