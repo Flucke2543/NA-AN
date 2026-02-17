@@ -22,7 +22,7 @@ body {
 }
 a:hover, 
 button:hover, 
-.card-link:hover, 
+card-link:hover, 
 [role="button"]:hover {
     cursor: url('https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/import/cursor%201.2.png'), pointer;
 }
