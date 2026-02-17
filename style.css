@@ -164,8 +164,9 @@ card-link:hover,
 .card-link p {
     color: #bbb !important;
     font-family: 'Oswald', sans-serif;
-    font-size: 2rem;
+    font-size: 1.25rem;
     font-weight: 300;
+    text-transform: uppercase;
 }
 .card-link .card-footer {
     display: flex;
