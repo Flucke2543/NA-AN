@@ -25,41 +25,32 @@
 
     <section id="store" class="store">
         <h2 class="section-title">วรรณกรรมหัดอ่าน</h2>
-        <div class="book-grid">
-            <a href="reader.html" class="card-link">
+       <div class="book-grid" id="book-shelf">
+    </div>
+
+<script src="books.js"></script>
+<script>
+    const shelf = document.getElementById('book-shelf');
+
+    // วนลูปสร้าง Card ตามจำนวนหนังสือใน books.js
+    for (const id in library) {
+        const book = library[id];
+        shelf.innerHTML += `
+            <a href="reader.html?id=${id}" class="card-link">
                 <div class="book-card">
                     <div class="cover-box">
-                        <img src="https://www.hobbyfanclub.com/web/images/4zrpq30adtuxoir4pzch116202010203.jpg" alt="Cthulhu">
+                        <img src="${book.cover}" alt="${book.title}">
                     </div>
-                    <h3>เสียงเพรียกจากคธูลู</h3>
-                    <p>H.P. Lovecraft</p>
-                    <div class="card-footer" style="display: flex;  align-items: center; margin-top: 10px;">
-                        <span class="status" style="text-decoration: none; font-size: 1.2rem;">อ่านฟรี</span> </div>
-                </div> </a>
-            <a href="reader.html" class="card-link">
-                <div class="book-card">
-                    <div class="cover-box">
-                        <img src="https://cdna.artstation.com/p/assets/images/images/018/820/354/large/violette-petre-nameless-city.jpg?1560862526" alt="Nameless City">
-                    </div>
-                    <h3>นครไร้นาม</h3>
-                    <p>H.P. Lovecraft</p>
-                    <div class="card-footer" style="display: flex;  align-items: center; margin-top: 10px;">
-                        <span class="status" style="text-decoration: none; font-size: 1.2rem;">อ่านฟรี</span> </div>
-                </div> </a>
-            <a href="reader.html" class="card-link">
-                <div class="book-card">
-                    <div class="cover-box">
-                        <img src="https://mcrassus.wordpress.com/wp-content/uploads/2015/09/dagon_small.jpg?w=660" alt="Dagon">
-                    </div>
-                    <h3>เดกอน</h3>
-                    <p>H.P. Lovecraft</p>
+                    <h3>${book.title}</h3>
+                    <p>${book.author}</p>
                     <div class="card-footer" style="display: flex; align-items: center; margin-top: 10px;">
                         <span class="status" style="text-decoration: none; font-size: 1.2rem;">อ่านฟรี</span>
                     </div>
                 </div>
-                 </a>
-        </div>
-    </section>
+            </a>
+        `;
+    }
+</script>
 
     <footer>
         <p>&copy; 2026 NA-AN Project. All Rights Reserved.</p>
