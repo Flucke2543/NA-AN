@@ -9,7 +9,7 @@ const library = {
     "002": {
         title: "นครไร้นาม",
         author: "H.P. Lovecraft",
-        pdf: "file:///E:/download/69490a7377f5b-the-little-duke-or-richard-the-fearless-by-charlotte-mary-yonge.pdf",
+        pdf: "library/The Nameless City.pdf",
         cover: "https://cdna.artstation.com/p/assets/images/images/018/820/354/large/violette-petre-nameless-city.jpg?1560862526"
     },
     "003": {
