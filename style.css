@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=swap');
 :root {
     --bg: #0f0101;
     --card-bg: #121212;
@@ -149,7 +149,7 @@ card-link:hover,
     color: #ffffff !important; 
     display: block; }
 .card-link h3 {
-    font-family:'IBM Plex Sans Thai', sans-serif; 
+    font-family:'Anuphan', sans-serif; 
     font-size: 1.35rem;           
     font-weight: 700;             
     color: #ffffff;               
