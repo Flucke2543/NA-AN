@@ -139,7 +139,12 @@ card-link:hover,
 }
 .book-card:hover { border-color: var(--gold); transform: translateY(-5px); 
 }
-.status { color: #2ecc71; font-weight: bold; }
+.status { 
+    color: #2ecc71; 
+    font-weight: 300;
+    font-size: 0.8rem;
+    font-family:'IBM Plex Sans Thai', sans-serif
+}
 .price { color: var(--gold); font-weight: bold; }
 
 .card-link, 
