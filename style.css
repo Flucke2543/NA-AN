@@ -162,11 +162,11 @@ card-link:hover,
     color: var(--gold);
 }
 .card-link p {
-    color: #bbb !important;}
+    color: #bbb !important;
     font-family: 'Oswald', sans-serif;
     font-size: 0.9rem;
     font-weight: 300;
-
+}
 .card-link .card-footer {
     display: flex;
     justify-content: flex-end;
