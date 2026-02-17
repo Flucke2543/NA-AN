@@ -18,7 +18,7 @@ body {
     margin: 0;
     line-height: 1.6;
     scroll-behavior: smooth;
-    cursor: url('https://github.com/Flucke2543/NA-AN/blob/main/%E0%B8%9E%E0%B8%B9%E0%B9%88%E0%B8%81%E0%B8%B1%E0%B8%99.png'), auto;
+    cursor: url('https://raw.githubusercontent.com/Flucke2543/NA-AN/main/%E0%B8%9E%E0%B8%B9%E0%B9%82%E0%B8%81%E0%B8%B1%E0%B8%B1%E0%B8%99.png'), auto;
 }
 .navbar {
     background-color: var(--bg);
