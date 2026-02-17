@@ -147,7 +147,7 @@ card-link:hover,
     color: #ffffff !important; 
     display: block; }
 .card-link h3 {
-    font-family: 'Sarabun', serif; 
+    font-family:'IBM Plex Sans Thai', sans-serif; 
     font-size: 1.35rem;           
     font-weight: 700;             
     color: #ffffff;               
