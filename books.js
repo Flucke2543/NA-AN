@@ -3,7 +3,7 @@ const library = {
     "001": {
         title: "เสียงเรียกจากคธูลู",
         author: "H.P. Lovecraft",
-        pdf: "file:///E:/download/69490a7377f5b-the-little-duke-or-richard-the-fearless-by-charlotte-mary-yonge.pdf", // ชื่อไฟล์ PDF ที่มึงจะเอามาลง
+        pdf: "library/The call of Cthulhu.pdf", // ชื่อไฟล์ PDF ที่มึงจะเอามาลง
         cover: "https://www.hobbyfanclub.com/web/images/4zrpq30adtuxoir4pzch116202010203.jpg"   // ชื่อไฟล์ปก
     },
     "002": {
