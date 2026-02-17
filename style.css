@@ -139,7 +139,17 @@ body {
     color: #ffffff !important; 
     display: block; }
 .card-link:hover h3 {
-    color: var(--gold);}
+    color: #8b0000 !important; /* เปลี่ยนเป็นสีแดงเลือดนก */
+    text-shadow: 
+        0 0 8px #ff0000, 
+        0 0 15px #000, 
+        2px 2px 0px #000;
+    filter: blur(0.4px) contrast(150%); /* ทำให้ดูเบลอๆ ขยุกขยิกเหมือนลายแทงโบราณ */
+    letter-spacing: 2px; /* ตัวอักษรเริ่มแยกออกจากกันเหมือนจะสลาย */
+    transform: scale(1.05); /* ชื่อเรื่องขยายใหญ่ขึ้นนิดนึงเหมือนมันพุ่งใส่หน้า */
+    transition: all 0.4s ease-in-out;
+    animation: occult-shake 0.2s infinite; /* สั่งให้มันสั่นรัวๆ แบบรอยมนต์ดำ */
+}
 .card-link p {
     color: #bbb !important;}
 .card-link .card-footer {
@@ -203,4 +213,12 @@ body {
 }
 footer { margin-top: 20px; text-align: center; padding: 10px 0; border-top: 1px solid #222;  background-color: var(--bg);}
 footer p { margin: 0; font-size: 0.8rem; opacity: 0.6; }
+
+@keyframes occult-shake {
+    0% { transform: translate(0, 0) skew(0deg); }
+    25% { transform: translate(-1px, 1px) skew(1deg); opacity: 0.8; }
+    50% { transform: translate(1px, -1px) skew(-1deg); filter: blur(1px); }
+    75% { transform: translate(-1px, -1px) skew(0.5deg); }
+    100% { transform: translate(0, 0) skew(0deg); }
+}
 
