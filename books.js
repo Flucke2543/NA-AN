@@ -15,7 +15,7 @@ const library = {
     "003": {
         title: "เดกอน",
         author: "H.P. Lovecraft",
-        pdf: "file:///E:/download/69490a7377f5b-the-little-duke-or-richard-the-fearless-by-charlotte-mary-yonge.pdf",
+        pdf: "library/Dagon.pdf",
         cover: "https://mcrassus.wordpress.com/wp-content/uploads/2015/09/dagon_small.jpg?w=660"
     } 
 };
