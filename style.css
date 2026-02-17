@@ -20,13 +20,13 @@ body {
     margin: 0;
     line-height: 1.6;
     scroll-behavior: smooth;
-    cursor: url('https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/import/cursor%201.1.png'), auto;
+    cursor: url('https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/import/cursor%201.3.png'), auto;
 }
 a:hover, 
 button:hover, 
 card-link:hover, 
 [role="button"]:hover {
-    cursor: url('https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/import/cursor%201.2.png'), pointer;
+    cursor: url('https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/import/cursor%201.4.png'), pointer;
 }
 .navbar {
     background-color: var(--bg);
