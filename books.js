@@ -1,5 +1,5 @@
 // books.js - คลังคัมภีร์ของ NA-AN
-const library = {
+const library = { 
     "001": {
         title: "เสียงเรียกจากคธูลู",
         author: "H.P. Lovecraft",
@@ -11,12 +11,11 @@ const library = {
         author: "H.P. Lovecraft",
         pdf: "file:///E:/download/69490a7377f5b-the-little-duke-or-richard-the-fearless-by-charlotte-mary-yonge.pdf",
         cover: "assets/cover2.jpg"
-    }
+    },
     "003": {
         title: "เดกอน",
         author: "H.P. Lovecraft",
         pdf: "file:///E:/download/69490a7377f5b-the-little-duke-or-richard-the-fearless-by-charlotte-mary-yonge.pdf",
         cover: "assets/cover3.jpg"
-    }
-    // อนาคตจะเพิ่มอีกกี่ล้านเล่ม ก็แค่ก๊อปบรรทัด "002" มาวางต่อแล้วเปลี่ยนเลข
+    } 
 };
