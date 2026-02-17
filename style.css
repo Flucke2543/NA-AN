@@ -139,7 +139,7 @@ card-link:hover,
 }
 .book-card:hover { border-color: var(--gold); transform: translateY(-5px); 
 }
-.status-free { color: #2ecc71; font-weight: bold; }
+.status { color: #2ecc71; font-weight: bold; }
 .price { color: var(--gold); font-weight: bold; }
 
 .card-link, 
