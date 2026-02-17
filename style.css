@@ -132,14 +132,26 @@ body {
 }
 .status-free { color: #2ecc71; font-weight: bold; }
 .price { color: var(--gold); font-weight: bold; }
-footer { margin-top: 20px; text-align: center; padding: 10px 0; border-top: 1px solid #222;  background-color: var(--bg);}
-footer p { margin: 0; font-size: 0.8rem; opacity: 0.6; }
+.card-link, 
+.card-link:visited, 
+.card-link:active {
+    text-decoration: none !important; 
+    color: #ffffff !important; 
+    display: block; }
+.card-link:hover h3 {
+    color: var(--gold);}
+.card-link p {
+    color: #bbb !important;}
+.card-link .card-footer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 10px;}
 
 .reader-body {
     background-color: #121212; 
     color: #d1d1d1;
-    line-height: 1.8; 
-}
+    line-height: 1.8; }
 .reader-nav {
     padding: 15px 5%;
     display: flex; 
@@ -194,25 +206,6 @@ footer p { margin: 0; font-size: 0.8rem; opacity: 0.6; }
     text-decoration: none;
     font-size: 0.9rem;
 }
-.card-link, 
-.card-link:visited, 
-.card-link:active {
-    text-decoration: none !important; 
-    color: #ffffff !important; 
-    display: block; /* ทำให้มันคลุมพื้นที่การ์ดทั้งใบ */
-}
-/* 2. ถ้าเมาส์ชี้ (Hover) ให้ชื่อเรื่องเปลี่ยนเป็นสีทองนิดนึงพองาม */
-.card-link:hover h3 {
-    color: var(--gold);
-}
-/* 3. ปรับให้ชื่อคนเขียนยังเป็นสีเทาๆ เหมือนเดิม ไม่ขาวโพลนไปหมด */
-.card-link p {
-    color: #bbb !important;
-}
-/* 4. ปรับ Footer (อ่านฟรี/ราคา) ให้กลับมาอยู่ซ้าย-ขวาเหมือนเดิม */
-.card-link .card-footer {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-top: 10px;
-}
+footer { margin-top: 20px; text-align: center; padding: 10px 0; border-top: 1px solid #222;  background-color: var(--bg);}
+footer p { margin: 0; font-size: 0.8rem; opacity: 0.6; }
+
