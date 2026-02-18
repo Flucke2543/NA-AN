@@ -181,57 +181,66 @@ card-link:hover,
      
         /*ส่วน reader.html*/
 .reader-body {
-    background-color: #121212; 
-    color: #d1d1d1;
-    line-height: 1.8; }
-.reader-nav {
-    padding: 15px 5%;
-    display: flex; 
-    justify-content: space-between;
-    background: #000;
-    position: sticky;
-    top: 0;
+    background-color: var(--bg) !important; /* ใช้สีดำมืดจากตัวแปร :root ของมึง */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* ดึงกล่องอ่านมาไว้กึ่งกลางแนวนอน */
+    align-items: center;     /* ดึงกล่องอ่านมาไว้กึ่งกลางแนวตั้ง */
+    min-height: 100vh;       /* สูงเต็มหน้าจอเสมอ */
 }
-.reading-container {
-    max-width: 700px; 
-    margin: 60px auto;
-    padding: 0 20px;
+/* 2. กล่อง Wrapper ที่ทำหน้าที่เป็น "หน้าต่างอ่านหนังสือ" */
+.page-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
-.story-title {
-    font-size: 2.5rem;
-    color: var(--gold);
-    margin-bottom: 10px;
-}
-.story-meta {
-    color: #888;
-    border-bottom: 1px solid #333;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-}
-.story-content p {
-    margin-bottom: 25px;
-    font-size: 1.15rem;
-    text-align: justify;
-    text-indent: 2em; 
-}
-.reader-footer {
-    margin-top: 80px;
-    padding-top: 40px;
-    border-top: 1px solid #333;
+.reader-wrapper {
+    background: #ffffff;      /* พื้นหลังหน้าต่างอ่าน (สีขาวเพื่อให้ PDF ดูเด่น) */
+    width: 95%;
+    max-width: 900px;         /* *** บีบไม่ให้เต็มจอเพื่อให้เห็นขอบข้าง *** */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8); /* เงาเข้มๆ ให้กล่องดูลอยออกมา */
     text-align: center;
 }
-.btn-next {
-    background: var(--gold);
-    color: #000;
-    border: none;
-    padding: 10px 25px;
-    font-weight: bold;
-    cursor: pointer;
+/* 3. หัวข้อในหน้าอ่าน */
+.reader-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
 }
-.back-link {
+.reader-header h2 {
+    font-family: 'Anuphan', sans-serif;
+    color: #333;
+    font-size: 1.8rem;
+    margin: 10px 0;
+}
+/* 4. กล่อง PDF (พระเอกของงาน) */
+.pdf-box {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #222;        /* สีพื้นหลังกล่อง PDF ระหว่างโหลด */
+    height: 75vh;            /* ความสูงกำลังดีสำหรับสายตา */
+    width: 100%;
+}
+.pdf-box embed {
+    width: 100%;
+    height: 100%;
+}
+/* 5. ปุ่มกลับหน้าหลัก */
+.back-link-reader {
     color: var(--gold);
     text-decoration: none;
+    font-family: 'Mitr', sans-serif;
     font-size: 0.9rem;
+    transition: 0.3s;
+}
+.back-link-reader:hover {
+    color: var(--accent);
 }
 footer { margin-top: 20px; text-align: center; padding: 10px 0; border-top: 1px solid #222;  background-color: var(--bg);}
 footer p { margin: 0; font-size: 0.8rem; opacity: 0.6; }
