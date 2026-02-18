@@ -146,7 +146,7 @@ card-link:hover,
     font-family:'IBM Plex Sans Thai', sans-serif
 }
 .price { color: var(--gold); font-weight: bold; }
-
+        /*ส่วน Card หนังสือ*/
 .card-link, 
 .card-link:visited, 
 .card-link:active {
@@ -178,7 +178,8 @@ card-link:hover,
     justify-content: flex-end;
     align-items: center;
     margin-top: 10px;}
-
+     
+        /*ส่วน reader.html*/
 .reader-body {
     background-color: #121212; 
     color: #d1d1d1;
