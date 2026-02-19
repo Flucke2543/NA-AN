@@ -193,54 +193,42 @@ card-link:hover,
     align-items: center;
     min-height: 100vh;
 }
-.reader-nav {
-    padding: 15px 5%;
-    display: flex; 
-    justify-content: space-between;
-    background: #000;
-    position: sticky;
-    top: 0;
-}
-.reading-container {
-    max-width: 700px; 
-    margin: 60px auto;
-    padding: 0 20px;
-}
-.story-title {
-    font-size: 2.5rem;
-    color: var(--gold);
-    margin-bottom: 10px;
-}
-.story-meta {
-    color: #888;
-    border-bottom: 1px solid #333;
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-}
-.story-content p {
-    margin-bottom: 25px;
-    font-size: 1.15rem;
-    text-align: justify;
-    text-indent: 2em; 
-}
-.reader-footer {
-    margin-top: 80px;
-    padding-top: 40px;
-    border-top: 1px solid #333;
+/* 2. กล่องหน้าต่างอ่านหนังสือ */
+.reader-wrapper {
+    background: rgba(255, 255, 255, 0.95); /* สีขาวโปร่งแสงนิดๆ ให้เห็นเนบิวลาจางๆ */
+    width: 95%;
+    max-width: 900px;         /* บีบความกว้างไม่ให้เต็มจอ */
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.8);
     text-align: center;
 }
-.btn-next {
-    background: var(--gold);
-    color: #000;
-    border: none;
-    padding: 10px 25px;
-    font-weight: bold;
-    cursor: pointer;
+/* 3. หัวข้อในกล่องขาว */
+.reader-header h2 {
+    font-family: 'Anuphan', sans-serif;
+    color: #1a1a1a;           /* สีชื่อเรื่องต้องตัดกับกล่องขาว */
+    font-size: 2rem;
+    margin-bottom: 20px;
 }
-.back-link {
-    color: var(--gold);
+.back-link-reader {
+    color: var(--accent);
     text-decoration: none;
-    font-size: 0.9rem;
+    font-family: 'Mitr', sans-serif;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+/* 4. กล่อง PDF */
+.pdf-box {
+    width: 100%;
+    height: 75vh;             /* ความสูงจออ่าน */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    background: #333;
+}
+.pdf-box embed {
+    width: 100%;
+    height: 100%;
 }
 footer { margin-top: 20px; text-align: center; padding: 10px 0; border-top: 1px solid #222;  background-color: var(--bg);}
 footer p { margin: 0; font-size: 0.8rem; opacity: 0.6; }
