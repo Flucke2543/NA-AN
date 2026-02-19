@@ -187,38 +187,35 @@ card-link:hover,
     background-position: center;   /* จัดรูปไว้กึ่งกลาง */
     background-attachment: fixed;  /* ให้พื้นหลังนิ่งตอนเลื่อนดู PDF */
     margin: 0;
-    padding: 0;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: center;
     min-height: 100vh;
+    padding-top: 80px;
 }
 /* 2. ตัวครอบใหญ่สุด */
 .page-container {
     width: 100%;
     display: flex;
     justify-content: center;
-    flex-direction: column; /* จัดเรียงแบบแนวตั้ง: ชื่อ -> กรอบอ่าน */
-    position: relative;
-    padding-top: 60px;     /* เว้นที่ให้ชื่อเรื่องด้านบน */
 }
 /* 2. กล่องหน้าต่างอ่านหนังสือ */
 .reader-wrapper {
-    background: rgba(255, 255, 255, 0.95); /* สีขาวโปร่งแสงนิดๆ ให้เห็นเนบิวลาจางๆ */
+   background: rgba(255, 255, 255, 0.98);
     width: 95%;
-    max-width: 900px;         /* บีบความกว้างไม่ให้เต็มจอ */
-    padding: 30px;
-    border-radius: 15px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.8);
-    text-align: center;
-    margin-bottom: 20px;
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
 /* 3. หัวข้อในกล่องขาว */
 .story-title-top {
     font-family: 'Anuphan', sans-serif;
     color: #1a1a1a;           /* สีชื่อเรื่องต้องตัดกับกล่องขาว */
     font-size: 2rem;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
+    text-align: center;
 }
 .back-link-top {
     color: var(--accent);
@@ -227,8 +224,8 @@ card-link:hover,
     display: inline-block;
     margin-bottom: 10px;
     position: fixed;
-    top: 20px;
-    left: 20px;
+    top: 25px;
+    left: 25px;
     padding: 8px 15px;
     border-radius: 5px;
     z-index: 1000;
