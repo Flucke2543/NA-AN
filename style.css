@@ -193,6 +193,13 @@ card-link:hover,
     align-items: center;
     min-height: 100vh;
 }
+/* 2. ตัวครอบใหญ่สุด */
+.page-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
 /* 2. กล่องหน้าต่างอ่านหนังสือ */
 .reader-wrapper {
     background: rgba(255, 255, 255, 0.95); /* สีขาวโปร่งแสงนิดๆ ให้เห็นเนบิวลาจางๆ */
