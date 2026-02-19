@@ -181,9 +181,18 @@ card-link:hover,
      
         /*ส่วน reader.html*/
 .reader-body {
-    background-color: #121212; 
-    color: #d1d1d1;
-    line-height: 1.8; }
+    /* ใส่รูปพื้นหลังที่มึงต้องการ (จะเป็นเนบิวลาหรือรูปอะไรก็ได้) */
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),url('https://images.unsplash.com/photo-1464802686167-b939a6910659?auto=format&fit=crop&w=1350&q=80'); 
+    background-size: cover;        /* ให้รูปขยายเต็มพื้นที่เสมอ */
+    background-position: center;   /* จัดรูปไว้กึ่งกลาง */
+    background-attachment: fixed;  /* ให้พื้นหลังนิ่งตอนเลื่อนดู PDF */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
 .reader-nav {
     padding: 15px 5%;
     display: flex; 
