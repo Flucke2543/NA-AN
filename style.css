@@ -229,6 +229,7 @@ card-link:hover,
     padding: 8px 15px;
     border-radius: 5px;
     z-index: 1000;
+    color: #ffffff;    
 }
 /* 4. กล่อง PDF */
 .pdf-box {
