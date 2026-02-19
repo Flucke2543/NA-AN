@@ -212,7 +212,7 @@ card-link:hover,
 /* 3. หัวข้อในกล่องขาว */
 .story-title-top {
     font-family: 'Anuphan', sans-serif;
-    color: #1a1a1a;           /* สีชื่อเรื่องต้องตัดกับกล่องขาว */
+    color: #ffffff;           /* สีชื่อเรื่องต้องตัดกับกล่องขาว */
     font-size: 2rem;
     margin-bottom: 25px;
     text-align: center;
