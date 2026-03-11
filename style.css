@@ -206,7 +206,7 @@ card-link:hover,
     width: 800px;
     height: 800px;
     max-width: 1000px;
-    padding: 5px;
+    padding: 10px;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
