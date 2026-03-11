@@ -204,8 +204,8 @@ card-link:hover,
 .reader-wrapper {
    background: rgba(255, 255, 255, 0.98);
     width: 95%;
-    max-width: 1000px;
-    padding: 10px;
+    max-width: 700px;
+    padding: 5px;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
