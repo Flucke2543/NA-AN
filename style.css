@@ -234,10 +234,13 @@ card-link:hover,
 /* 4. กล่อง PDF */
 .pdf-box {
     width: 100%;
+    max-width: 600px;
+    aspect-ratio: 1 / 1;
     height: 75vh;             /* ความสูงจออ่าน */
     border: 1px solid #ddd;
-    border-radius: 10px;
+    border-radius: 5px;
     overflow: hidden;
+    margin: 0 auto;
     background: #333;
 }
 .pdf-box embed {
