@@ -202,12 +202,14 @@ card-link:hover,
 }
 /* 2. กล่องหน้าต่างอ่านหนังสือ */
 .reader-wrapper {
-   background: rgba(255, 255, 255, 0.98);
-    width: 90%;
-    max-width: 700px;
-    padding: 5px;
+  background: rgba(255, 255, 255, 0.98); 
+    width: 90%;         
+    max-width: 600px;
+    padding: 10px;      
     border-radius: 10px;
-    box-shadow: 0 0 50px rgba(0,0,0,0.8);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    margin: 40px auto;   
+    overflow: hidden;    
 }
 /* 3. หัวข้อในกล่องขาว */
 .story-title-top {
