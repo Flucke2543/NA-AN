@@ -205,7 +205,7 @@ card-link:hover,
    background: rgba(255, 255, 255, 0.98);
     width: 95%;
     max-width: 700px;
-    padding: 3px;
+    padding: 5px;
     border-radius: 10px;
     box-shadow: 0 0 50px rgba(0,0,0,0.8);
 }
@@ -233,7 +233,7 @@ card-link:hover,
 }
 /* 4. กล่อง PDF */
 .pdf-box {
-    width: 80%;
+    width: 100%;
     aspect-ratio: 1 / 1;
     height: auto;             /* ความสูงจออ่าน */
     border: 1px solid #ddd;
