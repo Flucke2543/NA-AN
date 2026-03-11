@@ -236,8 +236,8 @@ card-link:hover,
     width: 100%;
     max-width: 600px;
     aspect-ratio: 1 / 1;
-    height: 75vh;             /* ความสูงจออ่าน */
-    border: 1px solid #ddd;
+    height: auto;             /* ความสูงจออ่าน */
+    border: 1px solid #ddd; /* เส้นขอบกล่อง */
     border-radius: 5px;
     overflow: hidden;
     margin: 0 auto;
