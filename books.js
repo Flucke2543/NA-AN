@@ -3,7 +3,7 @@ const library = {
     "001": {
         title: "เสียงเรียกจากคธูลู",
         author: "H.P. Lovecraft",
-        pdf: "‎‎library/data/The call of Cthulhu.pdf", 
+        pdf: "‎‎library/data/The_call_of_Cthulhu.pdf", 
         cover: "https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/library/Cover/Call%20of%20Cthullu_cover.jpg" 
     },
     "002": {
