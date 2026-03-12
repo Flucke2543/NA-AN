@@ -10,7 +10,7 @@ const library = {
         title: "นครไร้นาม",
         author: "H.P. Lovecraft",
         pdf: "library/The Nameless City.pdf",
-        cover: "https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/import/The%20Nameless%20city_cover.jpg"
+        cover: "https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/library/Cover/Dagon_cover.jpg"
     },
     "003": {
         title: "เดกอน",
