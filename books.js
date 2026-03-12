@@ -4,7 +4,7 @@ const library = {
         title: "เสียงเรียกจากคธูลู",
         author: "H.P. Lovecraft",
         pdf: "‎library/data/The call of Cthulhu.pdf", 
-        cover: "https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/library/Cover/Call%20of%20Cthullu_cover.jpg"   /
+        cover: "https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/library/Cover/Call%20of%20Cthullu_cover.jpg" 
     },
     "002": {
         title: "นครไร้นาม",
