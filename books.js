@@ -16,6 +16,6 @@ const library = {
         title: "เดกอน",
         author: "H.P. Lovecraft",
         pdf: "library/Dagon.pdf",
-        cover: "https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/import/Dagon_cover.jpg"
+        cover: "https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/library/Cover/The%20Nameless%20city_cover.jpg"
     } 
 };
