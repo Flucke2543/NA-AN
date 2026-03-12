@@ -58,7 +58,7 @@ card-link:hover,
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/import/Home%20page%20bg.png');
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('https://raw.githubusercontent.com/Flucke2543/NA-AN/refs/heads/main/library/Main_Background/Home%20page%20bg.png');
     background-size: cover;
     padding: 100px 0;
 }
